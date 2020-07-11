@@ -11,7 +11,7 @@ export default props =>{
 
     return(
         <div className={squareOptions}>
-            <button className={classes} onClick={()=> props.click()}>{props.label}</button>
+            <button className={classes} onClick={e=> props.click()}>{props.label}</button>
         </div>
         
     )

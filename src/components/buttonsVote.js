@@ -8,7 +8,7 @@ export default props =>{
 
     return(
         <div className={square}>
-            <button className={buttonVote}  onClick={() => props.click(props.label)}>{props.label}</button>
+            <button className={buttonVote}  onClick={e => props.click(props.label)}>{props.label}</button>
         </div>
     )
 }
