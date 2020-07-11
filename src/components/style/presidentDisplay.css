@@ -1,0 +1,43 @@
+#display{
+    display: grid;
+    height: 400px;
+    width: 600px;
+    background-color: whitesmoke;
+    grid-template-rows: 100px 100px 200px;
+    border: solid 1px black;
+}
+#title{
+    border: solid 1 px black;
+    background-color: aliceblue;
+}
+#titleWrite{
+    font-size: 2em;
+    margin-left: 20px;
+}
+#numbers{
+    display: flex;
+    margin-left: 20px;
+}
+.divNumber{
+    height: 60px;
+    width: 30px;
+    border: solid 1px black;
+    margin-right: 15px;
+}
+#number1{
+    background-color: aquamarine;
+}
+#number2{
+    background-color: rgb(83, 238, 78);
+}
+#image{
+    display: flex;
+    align-items: center;
+    background-color: darkkhaki;
+}
+#img{
+    margin-left: 100px;
+    height: 130px;
+    width: 150px;
+    border: solid 1px black;
+}

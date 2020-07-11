@@ -1,23 +1,17 @@
 import React from 'react';
-import './Urna.css';
+import PresidenteDisplay from './components/presidentDisplay'
+import './urna.css';
 
-function App() {
+function Urna() {
   return(
     <div>
-      <div>
-         
-      </div>
-      <div>
-        <header>
-
-        </header>
-        <div>
-
-        </div>
+      <PresidenteDisplay/>
+      <div id={votePart}>
+          
       </div>
     </div>
   )
 
 }
 
-export default App;
+export default Urna;
