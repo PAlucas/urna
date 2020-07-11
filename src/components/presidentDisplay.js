@@ -11,6 +11,8 @@ export default props =>{
     const number2 = 'number2'
     const image = 'image'
     const img = 'img'
+    const imagem = 'imagem'
+
     return(
         <div id={display}>
             <header id={title}>
@@ -22,8 +24,8 @@ export default props =>{
             </div>
             <div id={image}>
                 <div id={img}>
-                    <h1>{props.nomePresidente}</h1>
-                    <img src={props.img} alt={props.nomePresidente}></img>
+                    <span>{props.nomePresidente}</span>
+                    <img id={imagem} src={props.img} alt={props.nomePresidente}></img>
                 </div>
             </div>
         </div>

@@ -25,10 +25,10 @@
     margin-right: 15px;
 }
 #number1{
-    background-color: aquamarine;
+    font-size: 1.2em;
 }
 #number2{
-    background-color: rgb(83, 238, 78);
+    font-size: 1.2em;
 }
 #image{
     display: flex;
@@ -40,4 +40,8 @@
     height: 130px;
     width: 150px;
     border: solid 1px black;
+}
+#imagem{
+    width: 150px;
+    height: 109px;
 }
