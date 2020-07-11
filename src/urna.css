@@ -1,0 +1,40 @@
+#content{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 3, 2, 0.8);
+}
+#votePart{
+    border: solid 1px black;
+    border-collapse: collapse;
+    display: grid;
+    height: 400px;
+    width: 350px;
+    grid-template-rows: 100px 240px 60px;
+}
+#toVote{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 60px 60px 60px 60px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#header{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+#frase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#brasao{
+    height: 90px;
+    width: 70px;
+}
+#options{
+    display: grid;
+    margin-left: 25px;
+    margin-right: 25px;
+    grid-template-columns: 100px 100px 100px;
+}
