@@ -6,7 +6,6 @@ import './urna.css';
 import Brasao from './images/brasao.jpg'
 import Bolsonaro from './images/bolsonaro.jpg'
 import Haddad from './images/Haddad.jpg'
-import Cottinha from './images/20cottinha.jpg'
 
 
 function Urna (){
@@ -49,11 +48,6 @@ function Urna (){
     setImgPresidente('')
   }
 
-  const branco = () =>{
-    setPresidente('Cottinha')
-    setImgPresidente(Cottinha)
-  }
-
   return (
     <div id={content}>
       <PresidenteDisplay number1={number1} number2={number2} nomePresidente={nomePresidente} img={imgPresidente}/>
@@ -80,7 +74,7 @@ function Urna (){
           <ButtonsVote label={'0'} zero click={label=>addnumber(label)}/>
         </div>
         <div id={options}>
-          <ButtonsOptions branco label={'Branco'} click={()=>branco()}/>
+          <ButtonsOptions branco label={'Branco'}/>
           <ButtonsOptions cancelar label={'Cancelar'} click={()=> cancelar()}/>
           <ButtonsOptions confirmar label={'Confirmar'}/>
         </div>
